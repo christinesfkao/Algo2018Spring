@@ -1,0 +1,35 @@
+This is README file for Algorithm PA#2
+Author: Kao, Shao-Fang (Christine 高紹芳) B02901035 電機五
+Date: July 8th, 2018
+=====
+SYNOPSIS:
+
+WorkerAnt –[GD|DP] <input_file_name> <output_file_name>
+
+This program implements optimization algorithms to minimize the total distance worker ants travel to pick all of food back to the formicary.
+
+=====
+DIRECTORY:
+
+bin/	<binary code destination>
+
+doc/	b02901035_pa2_report.pdf
+		pa2.pdf
+
+inputs/ <all the given input files>
+lib/	<library files>
+src/	<all my source code>
+
+checkSubmitPA2.sh
+makefile
+README
+  
+======
+HOW TO COMPILE:
+
+	make
+
+======
+HOW TO RUN:
+
+	./WorkerAnt –[GD|DP] <input_file_name> <output_file_name>
