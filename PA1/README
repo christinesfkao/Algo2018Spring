@@ -1,0 +1,41 @@
+This is README file for Algorithm PA#1
+Author: Kao, Shao-Fang (Christine 高紹芳) B02901035 電機五
+Date: March 20th, 2018
+=====
+SYNOPSIS:
+
+NTUsort -[IS|MS|HS] <input_file_name> <output_file_name>
+
+This program supports three different sorting methods: insertion sort, merge sort and heap sort.
+=====
+DIRECTORY:
+
+bin/	<binary code destination>
+
+doc/	b02901035_pa1_report.pdf
+		pa1.pdf
+
+inputs/ <all the given input files>
+
+lib/	<library files>
+
+src/	<all my source code>
+
+utility/<validation checkers>
+
+makefile
+README
+
+======
+HOW TO COMPILE:
+
+To compile, simply follow the following steps
+	make
+
+======
+HOW TO RUN:
+
+	./bin/NTU_sort -[IS|MS|HS] <input_file_name> <output_file_name>
+
+	For example,
+	./bin/NTU_sort -MS inputs/1000.ac.in outputs/1000.ac.MS.out
