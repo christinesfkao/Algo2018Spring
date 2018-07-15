@@ -1,0 +1,33 @@
+This is README file for Algorithm PA#3
+Author: Kao, Shao-Fang (Christine 高紹芳) B02901035 電機五
+Date: July 13th, 2018
+=====
+SYNOPSIS:
+
+	./Routing <input_file_pin> <input_file_block> <input_file_net> <output_file_name>
+
+	Given the locations of pins, locations of blockages, and netlist, this program use horizontal and vertical wires to connect the pins that satisfies all requirements.
+
+=====
+DIRECTORY:
+
+  bin/		executable binary
+  doc/		reports
+  inputs/	input files
+  outputs/	output files
+  lib/		library
+  src/ 		source C++ codes
+  util/		tools for validation
+  makefile
+  README
+  
+======
+HOW TO COMPILE:
+
+	make
+
+======
+HOW TO RUN:
+
+	./Routing <input_file_pin> <input_file_block> <input_file_net> <output_file_name>
+  ./CheckRouting <input_file_pin> <input_file_block> <input_file_net> <output_file_name>
